@@ -10,8 +10,7 @@
 $ roscore
 $ rosrun data_structure algorithms_node (option)
 ```
-Options :
----------
+### Options :
 n - Number example.
 c - Character example.
 s - String example.
