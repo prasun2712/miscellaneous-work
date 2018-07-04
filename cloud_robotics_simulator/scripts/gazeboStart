@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#===============Robots Start Position===============
+
+#===============Copying Model Files=================
+
+cp -r ../gazeboModelsAndWorldFile/finalEnv ~/.gazebo/models
+sleep 2
+
+#===================================================
+xterm -iconic -e roslaunch cloud_robotics_simulator my_room_gazebo.launch &
+
