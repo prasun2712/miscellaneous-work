@@ -11,8 +11,8 @@ $ roscore
 $ rosrun data_structure algorithms_node (option)
 ```
 ### Options :
-n - Number example.
-c - Character example.
+n - Number example.<br />
+c - Character example.<br />
 s - String example.
 
 ## cloud_robotics_simulator
