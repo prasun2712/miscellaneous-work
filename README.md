@@ -39,6 +39,7 @@ $ ./gazeboStart
  To stop environment and node.
 ```
 $ ./gazeboStop
+```
  To spawn obstacle use command line tool or write a simple publisher.
 ```
 $ rostopic pub /grid_no_for_obstacle std_msgs/Int64 "data: (grid number)"
